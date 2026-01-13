@@ -1,6 +1,6 @@
+import os, sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
 from legged_gym import *
-import os
-
 from legged_gym.envs import *
 from legged_gym.utils import  get_args, export_policy_as_jit, task_registry, Logger
 
